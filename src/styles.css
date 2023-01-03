@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 60px;
+  color: #555555;
+}
+
+.login-bg {
+  background-image: url("../images/Login-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Anaesthetic UI",
+  "version": "1.0.0",
+  "description": "Anaesthetic Interface",
+  "main": "index.js",
+  "scripts": {
+    "build-tailwind": "npx tailwindcss -i ./src/styles.css -o ./dist/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
