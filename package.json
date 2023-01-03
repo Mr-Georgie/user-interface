@@ -4,7 +4,7 @@
   "description": "Anaesthetic Interface",
   "main": "index.js",
   "scripts": {
-    "build-tailwind": "npx tailwindcss -i ./src/styles.css -o ./dist/tailwind.css --watch"
+    "build-tailwind": "npx tailwindcss -i ./src/input.css -o ./css/tailwind.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4"

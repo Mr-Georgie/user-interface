@@ -579,40 +579,9 @@ video {
   justify-content: center;
 }
 
-.tw-gap-2 {
-  gap: 0.5rem;
-}
-
-.tw-gap-6 {
-  gap: 1.5rem;
-}
-
-.tw-gap-16 {
-  gap: 4rem;
-}
-
-.tw-gap-12 {
-  gap: 3rem;
-}
-
-.tw-gap-x-16 {
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
-}
-
-.tw-gap-x-32 {
-  -moz-column-gap: 8rem;
-       column-gap: 8rem;
-}
-
 .tw-gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
-}
-
-.tw-gap-x-6 {
-  -moz-column-gap: 1.5rem;
-       column-gap: 1.5rem;
 }
 
 .tw-gap-x-4 {
@@ -676,6 +645,16 @@ video {
   padding-bottom: 50px;
 }
 
+.tw-px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.tw-px-\[25px\] {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 .tw-px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -684,16 +663,6 @@ video {
 .tw-py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.tw-px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-.tw-px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .tw-py-\[11px\] {
@@ -706,23 +675,8 @@ video {
   padding-right: 10px;
 }
 
-.tw-px-\[43px\] {
-  padding-left: 43px;
-  padding-right: 43px;
-}
-
-.tw-px-\[30px\] {
-  padding-left: 30px;
-  padding-right: 30px;
-}
-
-.tw-px-\[25px\] {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.tw-pl-8 {
-  padding-left: 2rem;
+.tw-pb-20 {
+  padding-bottom: 5rem;
 }
 
 .tw-pb-\[93px\] {
@@ -731,10 +685,6 @@ video {
 
 .tw-pb-3 {
   padding-bottom: 0.75rem;
-}
-
-.tw-pb-20 {
-  padding-bottom: 5rem;
 }
 
 .tw-text-center {
@@ -757,11 +707,6 @@ video {
 
 .tw-text-\[20px\] {
   font-size: 20px;
-}
-
-.tw-text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
 }
 
 .tw-text-xl {
@@ -787,24 +732,9 @@ video {
   color: rgb(153 153 153 / var(--tw-text-opacity));
 }
 
-.tw-text-slate-700 {
-  --tw-text-opacity: 1;
-  color: rgb(51 65 85 / var(--tw-text-opacity));
-}
-
 .tw-text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.tw-placeholder-slate-400::-moz-placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-placeholder-opacity));
-}
-
-.tw-placeholder-slate-400::placeholder {
-  --tw-placeholder-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-placeholder-opacity));
 }
 
 .tw-shadow-sm {
