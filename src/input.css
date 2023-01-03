@@ -14,3 +14,33 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* Dashboard */
+
+* {
+  margin: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1.2fr 4fr;
+  /* grid-gap: 20px; */
+}
+
+.side-bar {
+  /* width: 250px; */
+  height: 100vh;
+  background-color: #fafffc;
+}
+
+.title-small {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(68, 68, 68, 0.8);
+}
+
+.dashboard-nav {
+  background-color: #fafffc;
+}
