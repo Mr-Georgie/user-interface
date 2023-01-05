@@ -55,3 +55,26 @@
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+/* reusable components */
+
+@layer components {
+  .progress-status {
+    @apply tw-bg-[#007c92] tw-text-white tw-text-xs tw-py-1 tw-px-3 tw-font-extrabold tw-rounded-[30px];
+  }
+  .confirmation-in-progress {
+    @apply tw-py-5 tw-text-[#278de1] tw-text-xs tw-font-extrabold;
+  }
+  .admitted-status {
+    @apply tw-bg-[#009779] tw-text-white tw-text-xs tw-py-1 tw-px-3 tw-font-extrabold tw-rounded-[30px];
+  }
+  .confirmation-admitted {
+    @apply tw-py-5 tw-text-[#009779] tw-text-xs tw-font-extrabold;
+  }
+  .declined-status {
+    @apply tw-bg-[#8c1515] tw-text-white tw-text-xs tw-py-1 tw-px-3 tw-font-extrabold tw-rounded-[30px];
+  }
+  .confirmation-declined {
+    @apply tw-py-5 tw-text-[#8c1515] tw-text-xs tw-font-extrabold;
+  }
+}
