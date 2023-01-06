@@ -23,7 +23,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1.2fr 4fr;
+  grid-template-columns: 1fr 4.2fr;
   /* grid-gap: 20px; */
 }
 
@@ -56,9 +56,22 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+#user-card:hover {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
 /* reusable components */
 
 @layer components {
+  .table-hover {
+    @apply hover:tw-bg-slate-100;
+  }
+  .router-link-hover {
+    @apply tw-fill-[#777777] hover:tw-text-[#009779] hover:tw-border-[#009779] hover:tw-bg-[#92ffe9] hover:tw-fill-[#009779];
+  }
+  .router-link-active {
+    @apply tw-text-[#009779] tw-border-[#009779] tw-border-l-4 tw-bg-[#92ffe9] tw-fill-[#009779];
+  }
   .progress-status {
     @apply tw-bg-[#007c92] tw-text-white tw-text-xs tw-py-1 tw-px-3 tw-font-extrabold tw-rounded-[30px];
   }
