@@ -186,59 +186,81 @@
           <div class="tw-grid tw-grid-cols-2 tw-gap-0 tw-px-3">
             <div class="tw-col-span-1">
               <!-- image avatar -->
-              <img src="../images//people-avatars.png" alt="" />
+              <img src="../images/employee-assessment.png" alt="" />
             </div>
             <!-- add user form -->
             <div class="tw-col-span-1 tw-mx-2">
               <div class="tw-py-[6px] tw-mb-[49px]">
-                <h3 class="tw-font-bold tw-text-3xl">Add User</h3>
+                <h3 class="tw-font-bold tw-text-3xl">Add Assessment</h3>
               </div>
               <form>
-                <!--  -->
+                <!-- select 1 -->
                 <div class="tw-form-group tw-mb-6">
+                  <label
+                    for="department"
+                    class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700 tw-font-medium"
+                    >Department</label
+                  >
                   <select
                     name=""
                     id=""
                     class="tw-form-control tw-block tw-w-full tw-px-3 tw-py-3 tw-text-base tw-text-gray-400 tw-bg-white tw-bg-clip-padding tw-border tw-border-solid tw-border-[#CCCCCC] tw-rounded-[5px] tw-transition tw-ease-in-out tw-m-0 focus:tw-border-[#009779] focus:tw-outline-nonee"
                   >
-                    <option selected disabled>Select User Role</option>
+                    <option selected disabled>Select Department</option>
                     <option value="" class="tw-text-gray-600">
-                      Second sitting
+                      Nurse Anaesthesia Program
                     </option>
                     <option value="" class="tw-text-gray-600">
-                      Third sitting
+                      ECE program
                     </option>
+                  </select>
+                </div>
+                <!-- select 2 -->
+                <div class="tw-form-group tw-mb-6">
+                  <label
+                    for="courseCode"
+                    class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700 tw-font-medium"
+                    >Course Code</label
+                  >
+                  <select
+                    name=""
+                    id=""
+                    class="tw-form-control tw-block tw-w-full tw-px-3 tw-py-3 tw-text-base tw-text-gray-400 tw-bg-white tw-bg-clip-padding tw-border tw-border-solid tw-border-[#CCCCCC] tw-rounded-[5px] tw-transition tw-ease-in-out tw-m-0 focus:tw-border-[#009779] focus:tw-outline-nonee"
+                  >
+                    <option selected disabled>Select Course Code</option>
+                    <option value="" class="tw-text-gray-600">NAP-101</option>
+                    <option value="" class="tw-text-gray-600">MENT-102</option>
                   </select>
                 </div>
                 <!--  -->
                 <div class="tw-grid tw-grid-cols-2 tw-gap-4">
                   <div class="tw-form-group tw-mb-6">
                     <label
-                      for="firstname"
-                      class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700"
-                      >First Name</label
+                      for="noOfQuestions"
+                      class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700 tw-font-medium"
+                      >Number of Questions</label
                     >
                     <input
                       type="text"
-                      class="tw-form-control tw-block tw-w-full tw-px-3 tw-py-3 tw-text-base tw-font-normal tw-text-gray-600 tw-bg-white tw-bg-clip-padding tw-border tw-border-solid tw-border-[#cccccc] tw-rounded-[5px] tw-transition tw-ease-in-out tw-m-0 focus:tw-text-gray-700 focus:tw-bg-white focus:tw-border-[#009779] focus:tw-outline-none"
+                      class="tw-form-control tw-block tw-w-full tw-px-3 tw-py-3 tw-text-base tw-font-normal tw-text-gray-600 tw-bg-white tw-bg-clip-padding tw-border border-solid tw-border-[#cccccc] tw-rounded-[5px] tw-transition tw-ease-in-out tw-m-0 focus:tw-text-gray-700 focus:tw-bg-white focus:tw-border-[#009779] focus:tw-outline-none"
                       id=""
-                      aria-describedby="firstname"
-                      placeholder="Enter First name"
+                      aria-describedby="noOfQuestions"
+                      placeholder="e.g 100"
                     />
                   </div>
                   <!--  -->
                   <div class="tw-form-group tw-mb-6">
                     <label
-                      for="lastname"
-                      class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700"
-                      >Last Name</label
+                      for="noOfAsQuestions"
+                      class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700 tw-font-medium"
+                      >Number of Assessment Questions</label
                     >
                     <input
                       type="text"
-                      class="tw-form-control tw-block tw-w-full tw-px-3 tw-py-3 tw-text-base tw-font-normal tw-text-gray-600 tw-bg-white tw-bg-clip-padding tw-border tw-border-[#cccccc] tw-rounded-[5px] tw-transition tw-ease-in-out tw-m-0 focus:tw-text-gray-700 focus:tw-bg-white focus:tw-border-[#009779] focus:tw-outline-none"
+                      class="tw-form-control tw-block tw-w-full tw-px-3 tw-py-3 tw-text-base tw-font-normal tw-text-gray-600 tw-bg-white tw-bg-clip-padding tw-border border-solid tw-border-[#cccccc] tw-rounded-[5px] tw-transition tw-ease-in-out tw-m-0 focus:tw-text-gray-700 focus:tw-bg-white focus:tw-border-[#009779] focus:tw-outline-none"
                       id=""
-                      aria-describedby="lastname"
-                      placeholder="Enter Last name"
+                      aria-describedby="noOfAsQuestions"
+                      placeholder="E.g 50"
                     />
                   </div>
                 </div>
@@ -246,29 +268,15 @@
                 <div class="tw-form-group tw-mb-6">
                   <label
                     for="othername"
-                    class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700"
-                    >Other Name</label
+                    class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700 tw-font-medium"
+                    >Expected Time to complete (in min)</label
                   >
                   <input
                     type="text"
                     class="tw-form-control tw-block tw-w-full tw-px-3 tw-py-3 tw-text-base tw-font-normal tw-text-gray-700 tw-bg-white tw-bg-clip-padding tw-border tw-border-solid tw-border-gray-300 tw-rounded tw-transition tw-ease-in-out tw-m-0 focus:tw-text-gray-700 focus:tw-bg-white focus:tw-border-[#009779] focus:tw-outline-none"
                     id=""
                     aria-describedby=""
-                    placeholder="Enter Other Name"
-                  />
-                </div>
-                <!--  -->
-                <div class="tw-form-group tw-mb-6">
-                  <label
-                    for="phoneNumber"
-                    class="tw-form-label tw-inline-block tw-mb-2 tw-text-gray-700"
-                    >Phone Number</label
-                  >
-                  <input
-                    type="password"
-                    class="tw-form-control tw-block tw-w-full tw-px-3 tw-py-3 tw-text-base tw-font-normal tw-text-gray-700 tw-bg-white tw-bg-clip-padding tw-border tw-border-solid tw-border-gray-300 tw-rounded tw-transition tw-ease-in-out tw-m-0 focus:tw-text-gray-700 focus:tw-bg-white focus:tw-border-[#009779] focus:tw-outline-none"
-                    id="exampleInputPassword2"
-                    placeholder="Enter Phone Number"
+                    placeholder="E.g 60"
                   />
                 </div>
                 <!--  -->
@@ -276,7 +284,7 @@
                   type="submit"
                   class="tw-w-full tw-px-6 tw-py-3 tw-bg-[#009779] tw-text-white tw-font-semibold tw-text-lg tw-leading-tight tw-rounded tw-shadow-md tw-hover:bg-blue-700 tw-hover:shadow-lg tw-focus:bg-blue-700 tw-focus:shadow-lg tw-focus:outline-none tw-focus:ring-0 tw-active:bg-blue-800 tw-active:shadow-lg tw-transition tw-duration-150 tw-ease-in-out"
                 >
-                  Add User
+                  Create Assessment
                 </button>
               </form>
             </div>
