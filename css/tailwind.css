@@ -719,6 +719,10 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.tw-mr-2 {
+  margin-right: 0.5rem;
+}
+
 .tw-block {
   display: block;
 }
@@ -863,6 +867,14 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.tw-grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.tw-grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
 .tw-flex-col {
   flex-direction: column;
 }
@@ -977,6 +989,34 @@ video {
 .tw-rounded-t {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
+}
+
+.tw-rounded-t-md {
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
+}
+
+.tw-rounded-t-full {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.tw-rounded-l {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.tw-rounded-r {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.tw-rounded-tr-sm {
+  border-top-right-radius: 0.125rem;
+}
+
+.tw-rounded-tr-md {
+  border-top-right-radius: 0.375rem;
 }
 
 .tw-border {
@@ -1104,6 +1144,10 @@ video {
   background-clip: padding-box;
 }
 
+.tw-fill-\[\#12ae8f\] {
+  fill: #12ae8f;
+}
+
 .tw-p-2 {
   padding: 0.5rem;
 }
@@ -1118,6 +1162,10 @@ video {
 
 .tw-p-4 {
   padding: 1rem;
+}
+
+.tw-p-1 {
+  padding: 0.25rem;
 }
 
 .tw-px-8 {

@@ -162,7 +162,26 @@
         <!-- page body -->
         <div class="tw-pb-48 tw-overflow-y-auto tw-h-full">
           <!-- top button -->
-          <div class="tw-p-8 tw-flex tw-justify-end">
+          <div class="tw-p-8 tw-flex tw-justify-end tw-gap-3">
+            <!-- button 1 -->
+            <button
+              class="tw-bg-[#53edce] hover:tw-bg-[#12ae8f] tw-cursor-pointer tw-px-5 tw-py-2 tw-rounded tw-flex tw-items-center"
+            >
+              <svg
+                viewBox="0 0 16 12"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                class="tw-w-4 tw-h-4 tw-fill-[#12ae8f] tw-mr-2"
+              >
+                <path
+                  d="M13.5 1C13.6326 1 13.7598 1.05268 13.8536 1.14645C13.9473 1.24021 14 1.36739 14 1.5V9H2V1.5C2 1.36739 2.05268 1.24021 2.14645 1.14645C2.24021 1.05268 2.36739 1 2.5 1H13.5ZM2.5 0C2.10218 0 1.72064 0.158035 1.43934 0.43934C1.15804 0.720644 1 1.10218 1 1.5V10H15V1.5C15 1.10218 14.842 0.720644 14.5607 0.43934C14.2794 0.158035 13.8978 0 13.5 0H2.5ZM0 10.5H16C16 10.8978 15.842 11.2794 15.5607 11.5607C15.2794 11.842 14.8978 12 14.5 12H1.5C1.10218 12 0.720644 11.842 0.43934 11.5607C0.158035 11.2794 0 10.8978 0 10.5H0Z"
+                  fill="#555555"
+                />
+              </svg>
+
+              Accredited Centers
+            </button>
+            <!-- button 2 -->
             <button
               class="tw-bg-[#53edce] hover:tw-bg-[#12ae8f] tw-cursor-pointer tw-px-5 tw-py-2 tw-rounded tw-flex tw-items-center"
             >
@@ -172,7 +191,7 @@
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="tw-w-4 tw-h-4"
+                class="tw-w-4 tw-h-4 tw-mr-2"
               >
                 <path
                   stroke-linecap="round"
@@ -181,21 +200,37 @@
                 />
               </svg>
 
-              Open New Application
+              Create New Assessment Questions
             </button>
           </div>
 
           <!-- 3 column cards in row -->
           <div class="tw-p-8 tw-grid tw-grid-cols-3 tw-gap-8">
             <!-- card -->
-            <div id="user-card" class="tw-w-[286px] tw-rounded">
-              <!-- green part -->
-              <div class="tw-p-3 tw-bg-[#53EDCE] tw-w-full tw-rounded-t">
-                <!-- row 1 -->
-                <div class="tw-flex tw-justify-between tw-py-3">
-                  <h5 class="tw-font-extrabold tw-text-base">
-                    Nurse Anaesthetic Program
-                  </h5>
+            <div id="user-card" class="tw-w-[286px] tw-rounded tw-grid tw-grid-cols-3">
+              <!-- left part -->
+              <div class="tw-p-3 tw-rounded-l tw-col-span-2">
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  100/100 Question Set
+                </div>
+                <!-- row -->
+                <div class="tw-text-sm tw-font-extrabold tw-text-[#555555] tw-py-8">
+                  Technicians Anaesthesia Program
+                </div>
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  Entrance Examination
+                </div>
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  TAP-101
+                </div>
+              </div>
+              <!-- right part -->
+              <div class="tw-p-1 tw-bg-[#009779] tw-rounded-r">
+                <!-- ellipses button -->
+                <div class="tw-flex tw-justify-end">
                   <button class="tw-rounded-full tw-bg-[#009779] tw-text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -203,7 +238,7 @@
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="tw-w-6 tw-h-6"
+                      class="tw-w-8 tw-h-8"
                     >
                       <path
                         stroke-linecap="round"
@@ -213,76 +248,46 @@
                     </svg>
                   </button>
                 </div>
-                <!-- row 2 -->
-                <div class="tw-flex tw-items-center tw-gap-3">
-                  <span
-                    class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-[#009779]"
-                  ></span>
-                  <span class="tw-font-semibold tw-text-[10px]"
-                    >Application Ongoing</span
-                  >
-                </div>
-                <!-- row 3 -->
-                <div class="tw-flex tw-items-center tw-gap-4">
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="tw-w-9 tw-h-9"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div>
-                      <span class="tw-font-extrabold tw-text-xs"
-                        >Starting Date</span
-                      >
-                      <span class="tw-font-medium tw-text-xs">30-01-22</span>
-                    </div>
-                    <div>
-                      <span class="tw-font-extrabold tw-text-xs">Dealine</span>
-                      <span class="tw-font-medium tw-text-xs"
-                        >20-10-23 | 3 months time</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- white part -->
-              <div class="tw-flex-col tw-p-3">
-                <div class="tw-flex tw-items-center tw-gap-4">
-                  <div>
-                    <img src="../images/qrcode.png" alt="" class="tw-w-16" />
-                  </div>
-                  <div class="tw-font-extrabold tw-text-[#009779] tw-text-base">
-                    be46573yhgdfrtey3652h
-                  </div>
-                </div>
+                <!-- row 1 -->
                 <div
-                  class="tw-font-extrabold tw-text-[#555555] tw-text-base tw-py-3"
+                  class="tw-font-extrabold tw-text-white tw-text-base tw-py-4 tw-text-center"
                 >
-                  35 Total Applicants
+                  100 Questions
+                </div>
+                <!-- row 2 -->
+                <div
+                  class="tw-font-extrabold tw-text-white tw-text-xs tw-py-4 tw-text-center"
+                >
+                  2 Examiners
                 </div>
               </div>
             </div>
 
             <!-- card -->
-            <div id="user-card" class="tw-w-[286px] tw-rounded">
-              <!-- green part -->
-              <div class="tw-p-3 tw-bg-[#53EDCE] tw-w-full tw-rounded-t">
-                <!-- row 1 -->
-                <div class="tw-flex tw-justify-between tw-py-3">
-                  <h5 class="tw-font-extrabold tw-text-base">
-                    Nurse Anaesthetic Program
-                  </h5>
+            <div id="user-card" class="tw-w-[286px] tw-rounded tw-grid tw-grid-cols-3">
+              <!-- left part -->
+              <div class="tw-p-3 tw-rounded-l tw-col-span-2">
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  100/100 Question Set
+                </div>
+                <!-- row -->
+                <div class="tw-text-sm tw-font-extrabold tw-text-[#555555] tw-py-8">
+                  Technicians Anaesthesia Program
+                </div>
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  Entrance Examination
+                </div>
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  TAP-101
+                </div>
+              </div>
+              <!-- right part -->
+              <div class="tw-p-1 tw-bg-[#009779] tw-rounded-r">
+                <!-- ellipses button -->
+                <div class="tw-flex tw-justify-end">
                   <button class="tw-rounded-full tw-bg-[#009779] tw-text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -290,7 +295,7 @@
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="tw-w-6 tw-h-6"
+                      class="tw-w-8 tw-h-8"
                     >
                       <path
                         stroke-linecap="round"
@@ -300,76 +305,46 @@
                     </svg>
                   </button>
                 </div>
-                <!-- row 2 -->
-                <div class="tw-flex tw-items-center tw-gap-3">
-                  <span
-                    class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-[#009779]"
-                  ></span>
-                  <span class="tw-font-semibold tw-text-[10px]"
-                    >Application Ongoing</span
-                  >
-                </div>
-                <!-- row 3 -->
-                <div class="tw-flex tw-items-center tw-gap-4">
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="tw-w-9 tw-h-9"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div>
-                      <span class="tw-font-extrabold tw-text-xs"
-                        >Starting Date</span
-                      >
-                      <span class="tw-font-medium tw-text-xs">30-01-22</span>
-                    </div>
-                    <div>
-                      <span class="tw-font-extrabold tw-text-xs">Dealine</span>
-                      <span class="tw-font-medium tw-text-xs"
-                        >20-10-23 | 3 months time</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- white part -->
-              <div class="tw-flex-col tw-p-3">
-                <div class="tw-flex tw-items-center tw-gap-4">
-                  <div>
-                    <img src="../images/qrcode.png" alt="" class="tw-w-16" />
-                  </div>
-                  <div class="tw-font-extrabold tw-text-[#009779] tw-text-base">
-                    be46573yhgdfrtey3652h
-                  </div>
-                </div>
+                <!-- row 1 -->
                 <div
-                  class="tw-font-extrabold tw-text-[#555555] tw-text-base tw-py-3"
+                  class="tw-font-extrabold tw-text-white tw-text-base tw-py-4 tw-text-center"
                 >
-                  35 Total Applicants
+                  100 Questions
+                </div>
+                <!-- row 2 -->
+                <div
+                  class="tw-font-extrabold tw-text-white tw-text-xs tw-py-4 tw-text-center"
+                >
+                  2 Examiners
                 </div>
               </div>
             </div>
 
             <!-- card -->
-            <div id="user-card" class="tw-w-[286px] tw-rounded">
-              <!-- green part -->
-              <div class="tw-p-3 tw-bg-[#53EDCE] tw-w-full tw-rounded-t">
-                <!-- row 1 -->
-                <div class="tw-flex tw-justify-between tw-py-3">
-                  <h5 class="tw-font-extrabold tw-text-base">
-                    Nurse Anaesthetic Program
-                  </h5>
+            <div id="user-card" class="tw-w-[286px] tw-rounded tw-grid tw-grid-cols-3">
+              <!-- left part -->
+              <div class="tw-p-3 tw-rounded-l tw-col-span-2">
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  100/100 Question Set
+                </div>
+                <!-- row -->
+                <div class="tw-text-sm tw-font-extrabold tw-text-[#555555] tw-py-8">
+                  Technicians Anaesthesia Program
+                </div>
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  Entrance Examination
+                </div>
+                <!-- row -->
+                <div class="tw-text-xs tw-font-semibold tw-text-[#009779]">
+                  TAP-101
+                </div>
+              </div>
+              <!-- right part -->
+              <div class="tw-p-1 tw-bg-[#009779] tw-rounded-r">
+                <!-- ellipses button -->
+                <div class="tw-flex tw-justify-end">
                   <button class="tw-rounded-full tw-bg-[#009779] tw-text-white">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -377,7 +352,7 @@
                       viewBox="0 0 24 24"
                       stroke-width="1.5"
                       stroke="currentColor"
-                      class="tw-w-6 tw-h-6"
+                      class="tw-w-8 tw-h-8"
                     >
                       <path
                         stroke-linecap="round"
@@ -387,167 +362,20 @@
                     </svg>
                   </button>
                 </div>
-                <!-- row 2 -->
-                <div class="tw-flex tw-items-center tw-gap-3">
-                  <span
-                    class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-[#009779]"
-                  ></span>
-                  <span class="tw-font-semibold tw-text-[10px]"
-                    >Application Ongoing</span
-                  >
-                </div>
-                <!-- row 3 -->
-                <div class="tw-flex tw-items-center tw-gap-4">
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="tw-w-9 tw-h-9"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div>
-                      <span class="tw-font-extrabold tw-text-xs"
-                        >Starting Date</span
-                      >
-                      <span class="tw-font-medium tw-text-xs">30-01-22</span>
-                    </div>
-                    <div>
-                      <span class="tw-font-extrabold tw-text-xs">Dealine</span>
-                      <span class="tw-font-medium tw-text-xs"
-                        >20-10-23 | 3 months time</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- white part -->
-              <div class="tw-flex-col tw-p-3">
-                <div class="tw-flex tw-items-center tw-gap-4">
-                  <div>
-                    <img src="../images/qrcode.png" alt="" class="tw-w-16" />
-                  </div>
-                  <div class="tw-font-extrabold tw-text-[#009779] tw-text-base">
-                    be46573yhgdfrtey3652h
-                  </div>
-                </div>
-                <div
-                  class="tw-font-extrabold tw-text-[#555555] tw-text-base tw-py-3"
-                >
-                  35 Total Applicants
-                </div>
-              </div>
-            </div>
-
-            <!-- card -->
-            <div id="user-card" class="tw-w-[286px] tw-rounded">
-              <!-- green part -->
-              <div class="tw-p-3 tw-bg-[#53EDCE] tw-w-full tw-rounded-t">
                 <!-- row 1 -->
-                <div class="tw-flex tw-justify-between tw-py-3">
-                  <h5 class="tw-font-extrabold tw-text-base">
-                    Nurse Anaesthetic Program
-                  </h5>
-                  <button class="tw-rounded-full tw-bg-[#009779] tw-text-white">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="tw-w-6 tw-h-6"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M12 6.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 12.75a.75.75 0 110-1.5.75.75 0 010 1.5zM12 18.75a.75.75 0 110-1.5.75.75 0 010 1.5z"
-                      />
-                    </svg>
-                  </button>
+                <div
+                  class="tw-font-extrabold tw-text-white tw-text-base tw-py-4 tw-text-center"
+                >
+                  100 Questions
                 </div>
                 <!-- row 2 -->
-                <div class="tw-flex tw-items-center tw-gap-3">
-                  <span
-                    class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-[#009779]"
-                  ></span>
-                  <span class="tw-font-semibold tw-text-[10px]"
-                    >Application Ongoing</span
-                  >
-                </div>
-                <!-- row 3 -->
-                <div class="tw-flex tw-items-center tw-gap-4">
-                  <div>
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="tw-w-9 tw-h-9"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <div>
-                      <span class="tw-font-extrabold tw-text-xs"
-                        >Starting Date</span
-                      >
-                      <span class="tw-font-medium tw-text-xs">30-01-22</span>
-                    </div>
-                    <div>
-                      <span class="tw-font-extrabold tw-text-xs">Dealine</span>
-                      <span class="tw-font-medium tw-text-xs"
-                        >20-10-23 | 3 months time</span
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- white part -->
-              <div class="tw-flex-col tw-p-3">
-                <div class="tw-flex tw-items-center tw-gap-4">
-                  <div>
-                    <img src="../images/qrcode.png" alt="" class="tw-w-16" />
-                  </div>
-                  <div class="tw-font-extrabold tw-text-[#009779] tw-text-base">
-                    be46573yhgdfrtey3652h
-                  </div>
-                </div>
                 <div
-                  class="tw-font-extrabold tw-text-[#555555] tw-text-base tw-py-3"
+                  class="tw-font-extrabold tw-text-white tw-text-xs tw-py-4 tw-text-center"
                 >
-                  35 Total Applicants
+                  2 Examiners
                 </div>
               </div>
             </div>
-          </div>
-
-          <!-- pagination dots -->
-          <div class="tw-flex tw-justify-center tw-gap-3 tw-py-8">
-            <span
-              class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-blue-400 tw-cursor-pointer"
-            ></span>
-            <span
-              class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-slate-400 tw-cursor-pointer"
-            ></span>
-            <span
-              class="tw-rounded-full tw-h-3 tw-w-3 tw-bg-slate-400 tw-cursor-pointer"
-            ></span>
-          </div>
         </div>
       </div>
     </div>
