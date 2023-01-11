@@ -33,6 +33,22 @@
   background-color: #fafffc;
 }
 
+.title-semi-mid {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 34px;
+  color: rgba(68, 68, 68, 0.8);
+}
+
+.title-mid {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 34px;
+  color: rgba(68, 68, 68, 0.8);
+}
+
 .title-small {
   font-style: normal;
   font-weight: 800;
@@ -67,11 +83,18 @@
 /* reusable components */
 
 @layer components {
+  .active-options {
+    @apply tw-bg-[#c3e3fe];
+  }
+
   .active-format-buttons {
     @apply focus:tw-bg-black focus:tw-text-white;
   }
   .active-button {
     @apply tw-bg-[#53EDCE];
+  }
+  .current-button {
+    @apply tw-bg-[#96cbf8];
   }
   .hover-active-link {
     @apply hover:tw-text-[#25C4A4] hover:tw-underline;
