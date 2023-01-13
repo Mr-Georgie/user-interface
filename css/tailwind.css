@@ -839,6 +839,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.tw-mt-4 {
+  margin-top: 1rem;
+}
+
 .tw-block {
   display: block;
 }
@@ -909,6 +913,22 @@ video {
 
 .tw-h-10 {
   height: 2.5rem;
+}
+
+.tw-h-\[420px\] {
+  height: 420px;
+}
+
+.tw-h-\[400px\] {
+  height: 400px;
+}
+
+.tw-h-\[350px\] {
+  height: 350px;
+}
+
+.tw-h-\[370px\] {
+  height: 370px;
 }
 
 .tw-w-11 {
